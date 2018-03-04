@@ -1,0 +1,24 @@
+@import "_palette";
+
+.c-home {
+  margin: 25vh auto;
+  width: 310px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+
+  a {
+    font-size: $font-pri-size;
+    text-decoration: none;
+    color: $color-pri-text;
+    border: solid 1px $color-pri-text;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: $color-pri-darker-background;
+  }
+}

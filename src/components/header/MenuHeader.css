@@ -1,0 +1,13 @@
+header {
+  background-color: #6E3667; }
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; }
+    header ul li {
+      color: #88D317;
+      padding: 20px;
+      font-size: 24px; }
+    header ul li:first-child {
+      background-color: #88D317;
+      color: #1A0315; }

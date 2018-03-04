@@ -1,0 +1,19 @@
+@import "_palette";
+
+body {
+  background-image: url('./images/home-background.JPG');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#root {
+  background-color: $color-pri-background;
+  opacity: 0.8;
+  height: 100vh;
+}
+
+h1 {
+  color: $color-pri-text;
+  font-size: 48px;
+  text-transform: uppercase;
+}

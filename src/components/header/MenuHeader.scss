@@ -1,0 +1,22 @@
+@import "_palette";
+
+header {
+  background-color: $color-sec-background;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      color: $color-highlight;
+      padding: 20px;
+      font-size: $font-pri-size;
+    }
+
+    li:first-child {
+      background-color: $color-highlight;
+      color: $color-sec-text;
+    }
+  }
+}
