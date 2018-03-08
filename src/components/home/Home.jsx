@@ -8,10 +8,10 @@ class Home extends Component {
         <h1>Developer.</h1>
         <div className='buttons-container'>
           <div className='button-container'>
-            <a href='#'>Contact</a>
+            <a href='/contact'>Contact</a>
           </div>
           <div className='button-container'>
-            <a href='#'>Resume</a>
+            <a href='/resume'>Resume</a>
           </div>
         </div>
       </div>
