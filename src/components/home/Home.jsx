@@ -9,8 +9,8 @@ class Home extends Component {
         <div className='content-component'>
           <h1>Developer.</h1>
           <div className='buttons-container'>
-            <div className='button-container'>
-              <a href='/references'>References</a>
+            <div className='button-container' style={{display: 'none'}}>
+              <a href='/portfolio'>Portfolio</a>
             </div>
             <div className='button-container'>
               <a href='/resume'>Resume</a>
