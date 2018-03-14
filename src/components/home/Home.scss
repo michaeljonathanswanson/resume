@@ -1,8 +1,15 @@
 @import "_palette";
 
 .c-home {
-  margin: 25vh auto;
-  width: 310px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-component {
+  width: 100vw;
+  position: absolute;
+  top: 35vh;
+  text-align: center;
 }
 
 .buttons-container {

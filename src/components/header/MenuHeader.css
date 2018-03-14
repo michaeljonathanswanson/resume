@@ -1,13 +1,20 @@
 header {
-  background-color: #6E3667; }
+  background-color: #435424; }
   header ul {
+    padding-top: 10px;
     list-style: none;
     display: flex;
     justify-content: flex-end; }
     header ul li {
-      color: #88D317;
-      padding: 20px;
-      font-size: 24px; }
-    header ul li:first-child {
-      background-color: #88D317;
-      color: #1A0315; }
+      font-size: 24px;
+      padding: 20px 0; }
+
+.link-style {
+  color: #293316;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: #C9C7C1; }
+
+.active-link-style {
+  background-color: #293316;
+  color: #C9C7C1; }

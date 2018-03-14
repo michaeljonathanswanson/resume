@@ -1,6 +1,12 @@
 .c-home {
-  margin: 25vh auto;
-  width: 310px; }
+  display: flex;
+  justify-content: center; }
+
+.content-component {
+  width: 100vw;
+  position: absolute;
+  top: 35vh;
+  text-align: center; }
 
 .buttons-container {
   display: flex;
@@ -13,4 +19,4 @@
   border: solid 1px #ffffff;
   margin: 5px;
   padding: 10px 20px;
-  background-color: #222222; }
+  background-color: #8B939A; }

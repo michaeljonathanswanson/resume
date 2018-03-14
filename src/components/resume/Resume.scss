@@ -1,0 +1,95 @@
+@import "_palette";
+
+.c-resume {
+  background-color: white;
+  height: 100%;
+
+  .resume-container {
+    position: absolute;
+    top: $menu-height;
+    left: calc((100vw - #{$resume-width}) / 2);
+  }
+
+  .section-container {
+    width: $resume-width;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    div.left-container {
+      width: 40%;
+      height: 2.25in;
+      border: 1px solid $color-border;
+      vertical-align: bottom;
+      color: $color-pri-text;
+      margin-right: 5px;
+    }
+
+    div.right-container {
+      width: 60%;
+      height: 2.25in;
+      vertical-align: bottom;
+      border: 1px solid $color-border;
+      color: $color-pri-background;
+      margin-left: 5px;
+    }
+  }
+
+  .first-name {
+    text-transform: uppercase;
+  }
+
+  .left-title{
+    border-bottom: 1px solid $color-border;
+  }
+
+  .right-title {
+    border-bottom: 1px solid $color-border;
+  }
+
+
+  @media screen and (max-width: 990px) and (min-width: 769px) {
+    .resume-container {
+      left: 5vw;
+    }
+
+    .section-container {
+      width: 90vw;
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 601px) {
+    .resume-container {
+      left: 0;
+    }
+
+    .section-container {
+      width: 100vw;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .resume-container {
+      left: 0;
+    }
+
+    .section-container {
+      display: block;
+      width: 100vw;
+      margin: 0;
+
+      div.left-container {
+        width: 100vw;
+        display: block;
+        margin: 5px 0;
+      }
+
+      div.right-container {
+        width: 100vw;
+        display: block;
+        margin: 5px 0;
+      }
+    }
+
+  }
+}
