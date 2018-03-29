@@ -11,6 +11,9 @@ h2 {
   font-size: 28px;
   text-transform: uppercase; }
 
+a {
+  font-weight: 800; }
+
 .background-container {
   height: calc(150vh - 62px);
   width: 100vw;
@@ -19,7 +22,7 @@ h2 {
 
 .background-image {
   height: calc(150vh - 62px);
-  background-image: url("./images/home-background.JPG");
+  background-image: url("./media/home-background.jpg");
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -31,6 +34,6 @@ h2 {
     opacity: 0.5; }
   .background-image {
     height: 300vh;
-    background-image: url("./images/home-background.JPG");
+    background-image: url("./media/home-background.jpg");
     background-repeat: no-repeat;
     background-position: center center; } }

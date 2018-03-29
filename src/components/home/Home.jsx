@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
+import { NavLink } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -9,11 +10,11 @@ class Home extends Component {
         <div className='content-component'>
           <h1>Developer.</h1>
           <div className='buttons-container'>
-            <div className='button-container' style={{display: 'none'}}>
-              <a href='/portfolio'>Portfolio</a>
+            <div className='button-container' style={{ display: 'none' }}>
+              <NavLink activeClassName='active-link-style' className='link-style' to='/portfolio'>Resume</NavLink>
             </div>
             <div className='button-container'>
-              <a href='/resume'>Resume</a>
+              <NavLink activeClassName='active-link-style' className='link-style' to='/resume'>Resume</NavLink>
             </div>
           </div>
         </div>

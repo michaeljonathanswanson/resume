@@ -1,5 +1,6 @@
 @import "_palette";
 
+
 body {
 
 }
@@ -23,6 +24,10 @@ h2 {
   text-transform: uppercase;
 }
 
+a {
+  font-weight: 800;
+}
+
 .background-container {
   height: calc(150vh - #{$menu-height});
   width: 100vw;
@@ -32,7 +37,7 @@ h2 {
 
 .background-image {
   height: calc(150vh - #{$menu-height});
-  background-image: url('./images/home-background.JPG');
+  background-image: url('./media/home-background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -47,7 +52,7 @@ h2 {
 
     .background-image {
       height: 300vh;
-      background-image: url('./images/home-background.JPG');
+      background-image: url('./media/home-background.jpg');
       background-repeat: no-repeat;
       background-position: center center;
     }
@@ -63,7 +68,7 @@ h2 {
   //
   //   .background-image {
   //     height: 280vh;
-  //     background-image: url('./images/home-background.JPG');
+  //     background-image: url('./media/home-background.jpg');
   //     background-repeat: no-repeat;
   //     background-position: center center;
   //   }
