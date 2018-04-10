@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.css';
-import ResumeImg from "../../media/resume-pic.jpg";
+import ResumeImg from "../../media/resume-pic.png";
 import PhoneImg from "../../media/phone.png";
 import EmailImg from "../../media/email.png";
 import PersonImg from "../../media/person.png";
@@ -74,11 +74,11 @@ class Resume extends Component {
               <div className='info-text'>
                 <h3 style={{ marginBottom: 0 }}>Junior Web Developer</h3>
                 <h3 style={{ marginTop: 0 }}>Gigaflops.io, Austin, TX: June 2017 to present</h3>
-                <p>
-                  As a Junior Web Developer worked on a SPA (single page application) with one other Developer. Together we created two websites (<a target='_blank' rel='noopener noreferrer' href='https://foytrentdogshows.meteorapp.com/'>Foy Trent Dog Shows</a> and <a target='_blank' rel='noopener noreferrer' href='https://foytrentdogshows-admin.meteorapp.com/'>Foy Trent Dog Shows Admin</a>)
+                <p style={{fontSize: '14px'}}>
+                  As a Junior Web Developer I worked on a SPA (single page application) with one other Developer. Together we created two websites (<a target='_blank' rel='noopener noreferrer' href='https://foytrentdogshows.meteorapp.com/'>Foy Trent Dog Shows</a> and <a target='_blank' rel='noopener noreferrer' href='https://foytrentdogshows-admin.meteorapp.com/'>Foy Trent Dog Shows Admin</a>)
                 website for an AKC (American Kennel Club) Superintendent.
               </p>
-                <p>
+                <p style={{fontSize: '14px'}}>
                   I created data entry screens, filterable sortable reports, pdf generated reports, and automatic emails. We used Reactjs/Sass/ES6 for the frontend, Meteor/Nodejs/MongoDB/ES6 for the backend, and GIT for source control.
               </p>
               </div>
