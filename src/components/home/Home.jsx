@@ -11,6 +11,15 @@ class Home extends Component {
         <div className='content-component'>
           <h1>Developer.</h1>
           <div className='buttons-container'>
+            <div className='button-container desktop-only'>
+              <a href={Resume} className='link-style' download="Michael Swanson Resume.pdf">PDF Resume</a>
+            </div>
+            <div className='button-container desktop-only'>
+              <NavLink activeClassName='active-link-style' className='link-style' to='/resume'>Web Resume</NavLink>
+            </div>
+          </div>
+
+          <div className='mobile-only'>
             <div className='button-container'>
               <a href={Resume} className='link-style' download="Michael Swanson Resume.pdf">PDF Resume</a>
             </div>

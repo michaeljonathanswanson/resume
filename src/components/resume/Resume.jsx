@@ -14,7 +14,6 @@ import VideoGamesImg from "../../media/video-games.png";
 import MoviesImg from "../../media/Movies.png";
 import MusicImg from "../../media/Music.png";
 import HikingImg from "../../media/Hiking.png";
-import PythonImg from "../../media/Python.png"
 
 class Resume extends Component {
   render() {
@@ -54,10 +53,6 @@ class Resume extends Component {
                   <span className='tooltiptext'>React.js allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. This corresponds to View in the Model-View-Controller (MVC) pattern, and can be used in combination with other JavaScript libraries or frameworks in MVC, such as AngularJS.</span>
                 </div>
                 <div className='tooltip'>
-                  <img alt='React.js' className='language-icons' src={PythonImg} />
-                  <span className='tooltiptext'>Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support functional programming and aspect-oriented programming.</span>
-                </div>
-                <div className='tooltip'>
                   <img alt='' className='language-icons' src={NodeImg} />
                   <span className='tooltiptext'>Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js has become one of the foundational elements of the "JavaScript everywhere" paradigm, allowing web application development to unify &nbsp; around a single programming language, rather than rely on a different language for writing server side scripts.</span>
                 </div>
@@ -86,7 +81,7 @@ class Resume extends Component {
                 website for an AKC (American Kennel Club) Superintendent.
               </p>
                 <p style={{ fontSize: '14px' }}>
-                  I created data entry screens, filterable sortable reports, pdf generated reports, and automatic emails. We used Python/Reactjs/Sass/ES6 for the frontend, Meteor/Nodejs/MongoDB/ES6 for the backend, and GIT for source control.
+                  I created data entry screens, filterable sortable reports, pdf generated reports, and automatic emails. We used Reactjs/Sass/ES6 for the frontend, Meteor/Nodejs/MongoDB/ES6 for the backend, and GIT for source control.
               </p>
               </div>
             </div>

@@ -54,6 +54,8 @@
     height: 70px;
     width: 70px;
     margin-top: 35px; }
+    .c-resume .hobbies-icons:hover {
+      transform: scale(1.2); }
   .c-resume .section-container {
     width: 900px;
     margin: 10px auto 0 auto;
@@ -88,6 +90,9 @@
       color: #ffffff;
       margin-left: 5px; }
   .c-resume .language-flex {
+    justify-content: space-around;
+    display: flex; }
+  .c-resume .hobbies-flex {
     justify-content: space-around;
     display: flex; }
   .c-resume .right-container-icons {

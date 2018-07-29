@@ -26,7 +26,20 @@ a {
   background-repeat: no-repeat;
   background-position: center center; }
 
+.mobile-only {
+  display: none !important; }
+
+.desktop-only {
+  display: inherit !important; }
+
 @media screen and (max-width: 600px) {
+  main {
+    height: calc(100vh - 64px);
+    overflow: hidden; }
+  .mobile-only {
+    display: inherit !important; }
+  .desktop-only {
+    display: none !important; }
   .background-container {
     height: 300vh;
     width: 100vw;

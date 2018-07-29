@@ -19,7 +19,10 @@
 
 .button-container {
 
+  margin: 8px;
+  
   a {
+    display: inline-block;
     font-size: $font-pri-size;
     text-decoration: none;
     color: $color-pri-text;
