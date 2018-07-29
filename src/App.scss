@@ -28,6 +28,10 @@ a {
   font-weight: 800;
 }
 
+h3, h2, p, .info-text, .objectives {
+  padding: 0 4px;
+}
+
 .background-container {
   height: calc(150vh - #{$menu-height});
   width: 100vw;
@@ -53,7 +57,7 @@ a {
   @media screen and (max-width: 600px){
 
     main {
-      height: calc(100vh - 64px);
+      height: calc(100vh - #{$menu-height});
       overflow: hidden;
     }
     
@@ -63,6 +67,10 @@ a {
 
     .desktop-only {
       display: none !important;
+    }
+
+    div.work-right {
+      height: 362px !important;
     }
 
     .background-container {

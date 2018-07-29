@@ -5,15 +5,24 @@ import References from '../references/References.jsx';
 import Portfolio from '../portfolio/Portfolio.jsx';
 import { Switch, Route } from 'react-router-dom';
 
-export const Main = () => (
-    <main>
+export const Main = (props) => {
+  let style = {};
+
+  if (window.location.href.endsWith('resume') && window.screen.width < 600) {
+    style.overflow = 'auto';
+    style.height = '300vh';
+  }
+
+  return (
+    <main style={style}>
       <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/resume' component={Resume}/>
-        <Route exact path='/references' component={References}/>
-        <Route exact path='/portfolio' component={Portfolio}/>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/resume' component={Resume} />
+        <Route exact path='/references' component={References} />
+        <Route exact path='/portfolio' component={Portfolio} />
       </Switch>
     </main>
-);
+  );
+};
 
 export default Main;

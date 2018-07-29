@@ -135,13 +135,12 @@ class Resume extends Component {
 
             </div>
 
-            <div className='right-container'>
+            <div className='right-container desktop-only'>
               <div className='title'><h2>objectives</h2></div>
               <div className='objectives'>Want to build beautiful and functional websites using React!!!</div>
             </div>
           </div>
         </div>
-        <div className='react react-container'>Hello World</div>
       </div>
     );
   }
