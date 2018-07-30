@@ -124,6 +124,10 @@
   @media screen and (max-width: 600px) {
     .c-resume .resume-container {
       left: 0; }
+    .c-resume .tooltip .tooltiptext {
+      left: -100px; }
+    .c-resume .tooltipleft .tooltiptextleft {
+      left: 50px; }
     .c-resume .section-container {
       display: block;
       width: 100vw;

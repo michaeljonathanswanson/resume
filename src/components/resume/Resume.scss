@@ -190,6 +190,13 @@
       left: 0;
     }
 
+    .tooltip .tooltiptext {
+      left: -100px;
+  }
+    .tooltipleft .tooltiptextleft {
+      left: 50px
+    }
+
     .section-container {
       display: block;
       width: 100vw;

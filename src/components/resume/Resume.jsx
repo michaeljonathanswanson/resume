@@ -37,9 +37,9 @@ class Resume extends Component {
               <div className='title'><h2>languages</h2></div>
 
               <div className='language-flex'>
-                <div className='tooltip'>
+                <div className='tooltip tooltipleft'>
                   <img alt='' className='language-icons' src={ES6Img} />
-                  <span className='tooltiptext'>JavaScript 6th edition, officially known as ECMAScript 2015, was finalized in June 2015. This update adds significant new syntax for writing complex applications, including classes and modules, but defines them semantically in the same terms as ECMAScript 5 strict mode. Other new features include iterators and for/of loops, Python-style generators and generator expressions, arrow functions, binary data, typed arrays, collections (maps, sets and &nbsp; weak maps), promises, number and math enhancements, reflection, and proxies (metaprogramming for virtual objects and wrappers). The complete list is extensive.</span>
+                  <span className='tooltiptext tooltiptextleft'>JavaScript 6th edition, officially known as ECMAScript 2015, was finalized in June 2015. This update adds significant new syntax for writing complex applications, including classes and modules, but defines them semantically in the same terms as ECMAScript 5 strict mode. Other new features include iterators and for/of loops, Python-style generators and generator expressions, arrow functions, binary data, typed arrays, collections (maps, sets and &nbsp; weak maps), promises, number and math enhancements, reflection, and proxies (metaprogramming for virtual objects and wrappers). The complete list is extensive.</span>
                 </div>
                 <div className='tooltip'>
                   <img alt='' className='language-icons' src={SassImg} />
@@ -48,9 +48,9 @@ class Resume extends Component {
               </div>
 
               <div className='language-flex'>
-                <div className='tooltip'>
+                <div className='tooltip tooltipleft'>
                   <img alt='React.js' className='language-icons' src={ReactImg} />
-                  <span className='tooltiptext'>React.js allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. This corresponds to View in the Model-View-Controller (MVC) pattern, and can be used in combination with other JavaScript libraries or frameworks in MVC, such as AngularJS.</span>
+                  <span className='tooltiptext tooltiptextleft'>React.js allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. This corresponds to View in the Model-View-Controller (MVC) pattern, and can be used in combination with other JavaScript libraries or frameworks in MVC, such as AngularJS.</span>
                 </div>
                 <div className='tooltip'>
                   <img alt='' className='language-icons' src={NodeImg} />
@@ -59,9 +59,9 @@ class Resume extends Component {
               </div>
 
               <div className='language-flex'>
-                <div className='tooltip'>
+                <div className='tooltip tooltipleft'>
                   <img alt='' className='language-icons' src={MongoImg} />
-                  <span className='tooltiptext'>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas. </span>
+                  <span className='tooltiptext tooltiptextleft'>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas. </span>
                 </div>
                 <div className='tooltip'>
                   <img alt='' className='language-icons' src={MeteorImg} />

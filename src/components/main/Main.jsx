@@ -11,6 +11,7 @@ export const Main = (props) => {
   if (window.location.href.endsWith('resume') && window.screen.width < 600) {
     style.overflow = 'auto';
     style.height = '300vh';
+    style.width = '100vw';
   }
 
   return (
