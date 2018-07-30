@@ -114,13 +114,13 @@ class Resume extends Component {
               <div className='title'><h2>hobbies</h2></div>
 
               <div className='language-flex'>
-                <div className='tooltip'>
+                <div className='tooltip tooltipleft'>
                   <img alt='' className='language-icons' src={VideoGamesImg} />
-                  <span className='tooltiptext'>PC: StarCraft, Divinity Original Sin, PUBG. Switch: BOFW, Mario Odyssey, Mario Kart. Also huge fan of all old games NES, SNES, Old PC games and much more!  </span>
+                  <span className='tooltiptext tooltiptextleft'>PC: StarCraft, Divinity Original Sin, PUBG. Switch: BOFW, Mario Odyssey, Mario Kart. Also huge fan of all old games NES, SNES, Old PC games and much more!  </span>
                 </div>
-                <div className='tooltip'>
+                <div className='tooltip tooltipleft'>
                   <img alt='' className='language-icons' src={MoviesImg} />
-                  <span className='tooltiptext'>Action: Most Marvel Movies. Drama: Breakfast Club, Fight Club. SyFy: Most Aliens films as well as Star Trek and Star Wars</span>
+                  <span className='tooltiptext tooltiptextleft'>Action: Most Marvel Movies. Drama: Breakfast Club, Fight Club. SyFy: Most Aliens films as well as Star Trek and Star Wars</span>
                 </div>
                 <div className='tooltip'>
                   <img alt='' className='language-icons' src={MusicImg} />
