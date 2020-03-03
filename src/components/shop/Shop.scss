@@ -1,13 +1,13 @@
 @import "_palette";
 
-.c-resume {
+.c-shop {
   background-color: white;
   height: 100%;
 
-  .resume-container {
+  .shop-container {
     position: absolute;
     top: $menu-height;
-    left: calc((100vw - #{$resume-width}) / 2);
+    left: calc((100vw - #{$shop-width}) / 2);
   }
 
   .face-panel {
@@ -86,7 +86,7 @@
   }
 
   .section-container {
-    width: $resume-width;
+    width: $shop-width;
     margin: 10px auto 0 auto;
     display: flex;
     justify-content: space-between;
@@ -166,7 +166,7 @@
   }
 
   @media screen and (max-width: 990px) and (min-width: 769px) {
-    .resume-container {
+    .shop-container {
       left: 5vw;
     }
 
@@ -176,7 +176,7 @@
   }
 
   @media screen and (max-width: 768px) and (min-width: 601px) {
-    .resume-container {
+    .shop-container {
       left: 0;
     }
 
@@ -186,7 +186,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    .resume-container {
+    .shop-container {
       left: 0;
     }
 

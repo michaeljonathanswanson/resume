@@ -1,29 +1,29 @@
-.c-resume {
+.c-shop {
   background-color: white;
   height: 100%; }
-  .c-resume .resume-container {
+  .c-shop .shop-container {
     position: absolute;
     top: 62px;
     left: calc((100vw - 900px) / 2); }
-  .c-resume .face-panel {
+  .c-shop .face-panel {
     max-width: 100%;
     max-height: 100%;
     min-height: 100%;
     min-width: 100%; }
-  .c-resume a {
+  .c-shop a {
     color: inherit; }
-  .c-resume .icons {
+  .c-shop .icons {
     height: 20px;
     width: 20px; }
-  .c-resume .language-icons {
+  .c-shop .language-icons {
     height: 70px;
     width: 70px; }
-    .c-resume .language-icons:hover {
+    .c-shop .language-icons:hover {
       transform: scale(1.2); }
-  .c-resume .tooltip {
+  .c-shop .tooltip {
     position: relative;
     display: inline-block; }
-  .c-resume .tooltip .tooltiptext {
+  .c-shop .tooltip .tooltiptext {
     visibility: hidden;
     width: 50vw;
     background-color: white;
@@ -38,7 +38,7 @@
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s; }
-  .c-resume .tooltip .tooltiptext::after {
+  .c-shop .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -47,104 +47,104 @@
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent; }
-  .c-resume .tooltip:hover .tooltiptext {
+  .c-shop .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1; }
-  .c-resume .hobbies-icons {
+  .c-shop .hobbies-icons {
     height: 70px;
     width: 70px;
     margin-top: 35px; }
-    .c-resume .hobbies-icons:hover {
+    .c-shop .hobbies-icons:hover {
       transform: scale(1.2); }
-  .c-resume .section-container {
+  .c-shop .section-container {
     width: 900px;
     margin: 10px auto 0 auto;
     display: flex;
     justify-content: space-between; }
-    .c-resume .section-container div.left-container {
+    .c-shop .section-container div.left-container {
       width: 40%;
       height: 225px;
       border: 1px solid #8B939A;
       vertical-align: bottom;
       color: #ffffff;
       margin-right: 5px; }
-    .c-resume .section-container div.work-right {
+    .c-shop .section-container div.work-right {
       width: 60%;
       height: 300px;
       vertical-align: bottom;
       border: 1px solid #8B939A;
       color: #ffffff;
       margin-left: 5px; }
-    .c-resume .section-container div.work-left {
+    .c-shop .section-container div.work-left {
       width: 40%;
       height: 300px;
       border: 1px solid #8B939A;
       vertical-align: bottom;
       color: #ffffff;
       margin-right: 5px; }
-    .c-resume .section-container div.right-container {
+    .c-shop .section-container div.right-container {
       width: 60%;
       height: 225px;
       vertical-align: bottom;
       border: 1px solid #8B939A;
       color: #ffffff;
       margin-left: 5px; }
-  .c-resume .language-flex {
+  .c-shop .language-flex {
     justify-content: space-around;
     display: flex; }
-  .c-resume .hobbies-flex {
+  .c-shop .hobbies-flex {
     justify-content: space-around;
     display: flex; }
-  .c-resume .right-container-icons {
+  .c-shop .right-container-icons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; }
-  .c-resume .first-name {
+  .c-shop .first-name {
     padding-left: 15px;
     text-transform: uppercase;
     font-weight: bold; }
-  .c-resume .last-name {
+  .c-shop .last-name {
     margin: 0;
     padding-left: 15px;
     text-transform: uppercase;
     font-weight: bold; }
-  .c-resume .title {
+  .c-shop .title {
     border-bottom: 1px solid #8B939A; }
   @media screen and (max-width: 990px) and (min-width: 769px) {
-    .c-resume .resume-container {
+    .c-shop .shop-container {
       left: 5vw; }
-    .c-resume .section-container {
+    .c-shop .section-container {
       width: 90vw; } }
   @media screen and (max-width: 768px) and (min-width: 601px) {
-    .c-resume .resume-container {
+    .c-shop .shop-container {
       left: 0; }
-    .c-resume .section-container {
+    .c-shop .section-container {
       width: 100vw; } }
   @media screen and (max-width: 600px) {
-    .c-resume .resume-container {
+    .c-shop .shop-container {
       left: 0; }
-    .c-resume .tooltip .tooltiptext {
+    .c-shop .tooltip .tooltiptext {
       left: -100px; }
-    .c-resume .tooltipleft .tooltiptextleft {
+    .c-shop .tooltipleft .tooltiptextleft {
       left: 50px; }
-    .c-resume .section-container {
+    .c-shop .section-container {
       display: block;
       width: 100vw;
       margin: 0; }
-      .c-resume .section-container div.left-container {
+      .c-shop .section-container div.left-container {
         width: 100vw;
         display: block;
         margin: 5px 0; }
-      .c-resume .section-container div.right-container {
+      .c-shop .section-container div.right-container {
         width: 100vw;
         display: block;
         margin: 5px 0; }
-      .c-resume .section-container div.work-left {
+      .c-shop .section-container div.work-left {
         width: 100vw;
         display: block;
         margin: 5px 0; }
-      .c-resume .section-container div.work-right {
+      .c-shop .section-container div.work-right {
         width: 100vw;
         display: block;
         margin: 5px 0; } }

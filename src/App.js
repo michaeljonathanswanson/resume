@@ -6,7 +6,7 @@ import Main from './components/main/Main.jsx';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: 'black'}}>
         <MenuHeader />
         <Main/>
       </div>

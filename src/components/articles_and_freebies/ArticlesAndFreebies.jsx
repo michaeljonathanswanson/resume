@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import './Home.css';
 import MobileMenuHeader from '../header/MobileMenuHeader.jsx';
 
-class Home extends Component {
+class ArticlesAndFreebies extends Component {
   render() {
     let screenHeight = window.screen.height + 25;
     return (
-      <div style={{ height: `${screenHeight}px`, backgroundColor: '#9600ff' }}>
+      <div style={{ height: `${screenHeight}px`, backgroundColor: 'rgb(149 225 129)' }}>
         <MobileMenuHeader />
       </div>
     );
   }
 }
 
-export default Home;
+export default ArticlesAndFreebies;
