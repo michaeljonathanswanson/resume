@@ -5,11 +5,19 @@ import MobileMenuHeader from '../header/MobileMenuHeader.jsx';
 class Home extends Component {
   render() {
     let screenHeight = window.screen.height + 25;
-    return (
-      <div style={{ height: `${screenHeight}px`, backgroundColor: '#9600ff' }}>
-        <MobileMenuHeader />
-      </div>
-    );
+    if (window.screen.width < 600) {
+      return (
+        <div style={{ height: `${screenHeight}px`, backgroundColor: '#9600ff' }}>
+          <MobileMenuHeader />
+        </div>
+      );
+    } else {
+      return (
+        <div style={{ height: `${screenHeight}px`, backgroundColor: '#9600ff' }}>
+
+        </div>
+      );
+    }
   }
 }
 
