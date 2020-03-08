@@ -1,6 +1,55 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
+// try it with css again useing flex box
+// <!DOCTYPE html>
+// <html>
+// <head>
+// <style>
+// .flex-container {
+//   display: flex;
+//   flex-direction: column;
+//   background-color: DodgerBlue;
+//   justify-content: space-between;
+//   height: 100%;
+// }
+
+// .flex-container > div {
+//   background-color: #f1f1f1;
+//   margin: 10px;
+//   text-align: center;
+//   line-height: 75px;
+//   font-size: 30px;
+//   transform: rotate(90deg);
+// }
+
+// .right-menu {
+// 	position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     width: 80px;
+//     border: red solid 2px;
+// }
+// </style>
+// </head>
+// <body>
+// <h1>The flex-direction Property</h1>
+
+// <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
+// <div class='right-menu'>
+// <div class="flex-container">
+//   <div>1</div>
+//   <div>2</div>
+//   <div>3</div> 
+//    <div>4</div> 
+// </div>
+// </div>
+
+// </body>
+// </html>
+
+
 class MobileMenuHeader extends Component {
   render() {
     let pathName = window.location.pathname;
@@ -25,7 +74,7 @@ class MobileMenuHeader extends Component {
       borderBottom: 'solid 2px black',
     };
 
-    let liHome = { ...styleLi, background: '#9600ff' };
+    let liHome = { ...styleLi};
     let liShop = { ...styleLi, background: '#00abda' };
     let liHowTo = { ...styleLi, background: 'rgb(179 0 97)' };
     let liComingSoon = { ...styleLi, background: 'rgb(12 169 141)' };
@@ -67,7 +116,7 @@ class MobileMenuHeader extends Component {
     return (
         <ul style={{ display: 'column', position: 'absolute', right: '0px', top: '0px', width: `${tabWidth}px` }}>
 
-          <li style={pathName !== '/' ? liHome : ActiveLinkStyleHome}>
+          <li style={pathName !== '/' ? liHome : ActiveLinkStyleHome} className='home-background'>
             <NavLink style={linkStyleHome} exact={true} to='/'>Home</NavLink>
           </li>
 
